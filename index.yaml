@@ -1,0 +1,71 @@
+apiVersion: v1
+entries:
+  dble:
+  - apiVersion: v1
+    appVersion: 2.19.09
+    created: 2019-12-11T18:49:45.253503784+08:00
+    description: DBLE is a high scalability middle-ware for MySQL sharding.
+    digest: d3e229bbd6ea2a53571d7d0257048e32699c0dc7cbf400b81e6f4ad3bb6d97d2
+    engine: gotpl
+    home: https://opensource.actionsky.com/
+    icon: https://github.com/actiontech/dble/raw/master/docs/dble_logo.png
+    keywords:
+    - dble
+    - mysql
+    - drds
+    maintainers:
+    - email: zhaoshan@inspur.com
+      name: zhaoshan
+    name: dble
+    sources:
+    - https://github.com/actiontech/dble
+    urls:
+    - dble-0.0.1.tgz
+    version: 0.0.1
+  influxdb-srelay:
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: 2019-12-11T18:49:45.254310785+08:00
+    description: An InfluxDB proxy for achieving a highly available setup on 2 InfluxDB
+      instances.
+    digest: a4c26fbc1e84242a44646b344195114b134804393d8b910cb7c5a56fc320e03e
+    engine: gotpl
+    home: https://github.com/toni-moreno/influxdb-srelay
+    keywords:
+    - influxdb
+    - ha
+    - proxy
+    maintainers:
+    - email: zhaoshan@inspur.com
+      name: zhaoshan
+    name: influxdb-srelay
+    sources:
+    - https://github.com/toni-moreno/influxdb-srelay
+    - https://github.com/toni-moreno/syncflux
+    urls:
+    - influxdb-srelay-0.0.1.tgz
+    version: 0.0.1
+  redis-cluster:
+  - apiVersion: v1
+    appVersion: 5.0.6
+    created: 2019-12-11T18:49:45.255057821+08:00
+    description: Highly available Kubernetes implementation of Redis Cluster
+    digest: 14553463cc6e8882ddfca687383fafa47c87be81e26a58807c50342d859258c9
+    engine: gotpl
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    - cluster
+    maintainers:
+    - email: zhaoshan@inspur.com
+      name: zhaoshan
+    name: redis-cluster
+    sources:
+    - https://redis.io/download
+    urls:
+    - redis-cluster-0.0.1.tgz
+    version: 0.0.1
+generated: 2019-12-11T18:49:45.250839916+08:00
