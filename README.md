@@ -1,6 +1,6 @@
 ## Welcome to Inspur Charts Repository
 
-Use this repository:
+To use this repository:
 ```
 helm repo add inspur-chart https://inspur-iop.github.io/charts
 ```
