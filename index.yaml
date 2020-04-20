@@ -3,9 +3,9 @@ entries:
   dble:
   - apiVersion: v1
     appVersion: 2.19.09
-    created: 2019-12-11T19:27:49.934148791+08:00
+    created: "2020-04-20T11:46:18.601123291+08:00"
     description: DBLE is a high scalability middle-ware for MySQL sharding.
-    digest: d3e229bbd6ea2a53571d7d0257048e32699c0dc7cbf400b81e6f4ad3bb6d97d2
+    digest: a9ec6dfc644f557b83711bcac957d56b75541896e6bf0be37d4f57f775e905d0
     engine: gotpl
     home: https://opensource.actionsky.com/
     icon: https://github.com/actiontech/dble/raw/master/docs/dble_logo.png
@@ -20,15 +20,15 @@ entries:
     sources:
     - https://github.com/actiontech/dble
     urls:
-    - incubator/dble-0.0.1.tgz
-    version: 0.0.1
+    - https://github.com/inspur-iop/charts/releases/download/dble-0.0.2/dble-0.0.2.tgz
+    version: 0.0.2
   influxdb-srelay:
   - apiVersion: v1
     appVersion: 0.6.0
-    created: 2019-12-11T19:27:49.935045407+08:00
+    created: "2020-04-20T11:46:19.007661223+08:00"
     description: An InfluxDB proxy for achieving a highly available setup on 2 InfluxDB
       instances.
-    digest: a4c26fbc1e84242a44646b344195114b134804393d8b910cb7c5a56fc320e03e
+    digest: d67365250ed90c3e826e36988efe9b88fdee138a4ece9143b6a28d628fe7d142
     engine: gotpl
     home: https://github.com/toni-moreno/influxdb-srelay
     keywords:
@@ -43,14 +43,14 @@ entries:
     - https://github.com/toni-moreno/influxdb-srelay
     - https://github.com/toni-moreno/syncflux
     urls:
-    - incubator/influxdb-srelay-0.0.1.tgz
-    version: 0.0.1
+    - https://github.com/inspur-iop/charts/releases/download/influxdb-srelay-0.0.2/influxdb-srelay-0.0.2.tgz
+    version: 0.0.2
   redis-cluster:
   - apiVersion: v1
     appVersion: 5.0.6
-    created: 2019-12-11T19:27:49.935842403+08:00
+    created: "2020-04-20T11:46:19.408444313+08:00"
     description: Highly available Kubernetes implementation of Redis Cluster
-    digest: 14553463cc6e8882ddfca687383fafa47c87be81e26a58807c50342d859258c9
+    digest: f40cabfda449cc29a448fddea131c2d1d3a6eb9fe9f78cf6e7734a2cdb97e15f
     engine: gotpl
     home: http://redis.io/
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
@@ -66,6 +66,6 @@ entries:
     sources:
     - https://redis.io/download
     urls:
-    - incubator/redis-cluster-0.0.1.tgz
-    version: 0.0.1
-generated: 2019-12-11T19:27:49.93171363+08:00
+    - https://github.com/inspur-iop/charts/releases/download/redis-cluster-0.0.2/redis-cluster-0.0.2.tgz
+    version: 0.0.2
+generated: "2019-12-11T19:27:49.93171363+08:00"
